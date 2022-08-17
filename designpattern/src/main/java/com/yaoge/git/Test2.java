@@ -10,6 +10,6 @@ public class Test2 {
         System.out.println("master 第二次提交");
         System.out.println("hot-fix 第二次提交");
         System.out.println("matser 第三次提交，冲突");
-
+        System.out.println("hot-fix 第三次提交 冲突");
     }
 }
