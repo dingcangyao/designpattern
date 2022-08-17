@@ -1,10 +1,9 @@
 # Project exclude paths
 /designpattern/target/
-*.java
+
 .classpath
 .project
 .settings
 target
 .idea
 *.iml
-*.txt
