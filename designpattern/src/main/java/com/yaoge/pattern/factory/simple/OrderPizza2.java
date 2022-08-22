@@ -2,12 +2,15 @@ package com.yaoge.pattern.factory.simple;
 
 import com.yaoge.pattern.factory.chuantong.Pizza;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * create by yaoge
  * 2022/8/18 18:53
  * 用来进行pizza 点餐
  * 如果说增加了一种品类
- * order的这一端几乎没有任何代码的改变，改变的饿代码几种在SimpleFacotory
+ * order的这一端几乎没有任何代码的改变，改变的饿代码几种在 SimpleFactory
  */
 public class OrderPizza2 {
     public static void main(String[] args) {
@@ -18,5 +21,8 @@ public class OrderPizza2 {
         pizza.bake();
         pizza.cut();
         pizza.box();
+
+
+
     }
 }
